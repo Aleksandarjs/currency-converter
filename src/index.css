@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.app {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 255, 0.15) 0px 5px 15px 0px;
+}
+
+.app label {
+  color: #aaa;
+}
+
+.app input {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+  outline: none;
+  padding: 0 0 5px 5px;
+  margin: 15px 0;
+  color: #1034a6;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.app select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.app button {
+  width: 100%;
+  background-color: #1034a6;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.6s;
+  letter-spacing: 0.1rem;
+  text-transform: lowercase;
+  font-size: 14px;
+}
+
+.app button:hover {
+  background-color: #fff;
+  border: 1px solid #1034a6;
+  color: #1034a6;
+}
+
+.app p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.app p.error {
+  color: red;
+  font-size: 16px;
+}
